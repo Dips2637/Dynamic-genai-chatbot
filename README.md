@@ -51,16 +51,24 @@ Response Returned to User
 Folder Structure
 
 Dynamic-genai-chatbot/
-├── app.py                # FastAPI entry point
+
+├── app.py       # FastAPI entry point
+
 ├── chatbot.py            # Query handling logic
+
 ├── ingest.py             # Knowledge ingestion pipeline
+
 ├── vector_store.py       # Vector DB load/save logic
+
 ├── requirements.txt      # Dependencies
+
 ├── data_sources/
 │   └── sample_faqs.txt   # Knowledge source (editable)
+
 ├── embeddings/           # Generated vector database
 │   ├── index.faiss
 │   └── index.pkl
+
 └── README.md
 
 How the System Works
@@ -136,3 +144,4 @@ Vector database updates demonstrate real-world GenAI workflows
 Conclusion
 
 This project demonstrates a production-style GenAI chatbot architecture with a dynamically expandable knowledge base, fulfilling all task requirements and evaluation criteria.
+
