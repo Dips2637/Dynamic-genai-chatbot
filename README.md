@@ -93,7 +93,6 @@ Semantic similarity search is performed
 
 The most relevant knowledge is returned
 
-➕ Adding New Knowledge (No Code Change)
 
 Open data_sources/sample_faqs.txt
 
@@ -134,4 +133,5 @@ The solution is original, plagiarism-free, and fully compliant with conduct guid
 Conclusion
 
 This project demonstrates a practical, scalable approach to building an intelligent customer support chatbot using vector databases and semantic retrieval.
+
 The architecture is LLM-ready and can be extended with generative models if required in the future.
